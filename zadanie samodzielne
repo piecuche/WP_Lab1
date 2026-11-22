@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main() {
+    int rok_urodzenia;
+    float wzrost;
+printf ("podaj rok urodzenia: ");
+scanf ("%d", &rok_urodzenia);
+printf ("podaj wzrost w metrach: ");
+scanf ("%f", &wzrost);
+printf ("jestem urodzony w %d roku, mam %f wzrostu, mam prawo jazdy.\n", rok_urodzenia, wzrost);
+}
